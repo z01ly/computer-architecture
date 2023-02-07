@@ -16,7 +16,7 @@ int ll_has_cycle(node *head) {
 		if (hare == NULL) {
 		       	break;
 		}
-		if(hare == tortoise) {
+		if (hare == tortoise) {
 		       	return 1;
 		}
 		
