@@ -1,0 +1,4 @@
+1. Store to different memory sections
+2. In register a1: 34
+3. 268435464
+4. 

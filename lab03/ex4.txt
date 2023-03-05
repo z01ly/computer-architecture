@@ -1,0 +1,5 @@
+1. simple_fn: Usage of unset register t0. 
+   naive_pow, inc_arr:  Setting of a saved register (s0) which has not been saved.
+2. No
+3. inc_arr: nested function call
+4. Venus only looks for bugs in functions that are exported with the .globl directive.

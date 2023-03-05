@@ -1,0 +1,13 @@
+1. t0
+2. s0
+3. s1, s2
+
+4. Explanation:
+step 1: First load word source[k] to register t2
+step 2: Check condition, if satisfied jump to label exit
+step 3: store register word of main function, call fun, restore register
+step 4: Access dest[k] and add sum
+step 5: jump to the beginning of the loop, do not save return address
+
+5. stack pointer: sw, lw. Other pointers: la, add.
+
