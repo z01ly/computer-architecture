@@ -77,7 +77,18 @@ main:
 # Think: why might having a1 be useful?
 f:
     # YOUR CODE GOES HERE!
+    addi sp, sp, -4
+    sw s0, 0(sp)
+    li s0, 4
 
+    addi a0, a0, 3
+    mul a0, a0, s0
+    add a1, a1, a0
+    lw a0, 0(a1)
+
+    lw s0, 0(sp)
+    addi sp, sp, 4
+    
     jr ra               # Always remember to jr ra after your function!
 
 print_int:
