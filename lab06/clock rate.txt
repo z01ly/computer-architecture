@@ -1,0 +1,9 @@
+ex1: non-pipelined
+time = clk_to_q + setup + CL = 10 + 10 + 45 + 60 = 125 ns
+clock_rate = 1 / time = 1 / 125
+
+
+ex2: pipelined
+time = 10 + 10 + 45 = 65 ns
+clock_rate = 1 / time = 1 / 65
+"bubbles" are unnecessary: 65 > 60, the second stage is slower.
