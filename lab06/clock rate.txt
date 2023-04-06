@@ -4,6 +4,6 @@ clock_rate = 1 / time = 1 / 125
 
 
 ex2: pipelined
-time = 10 + 10 + 45 = 65 ns
-clock_rate = 1 / time = 1 / 65
-"bubbles" are unnecessary: 65 > 60, the second stage is slower.
+time = 10 + 10 + 60 = 80 ns
+clock_rate = 1 / time = 1 / 80
+"bubbles" are unnecessary: multiplication does not depend on the output of the previous addition.
